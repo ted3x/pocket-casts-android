@@ -26,7 +26,7 @@ class FolderEditViewModelTest {
         viewModel.changeFolderName(name)
         assertEquals(viewModel.folderName.value, name)
     }
-12
+122
     @Test
     fun test_nameLength_101() {
         val expectedName = "a".repeat(100)
