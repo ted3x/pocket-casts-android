@@ -238,7 +238,7 @@ class FilterEpisodeListFragment : BaseFragment() {
                 clearSelectedFilter()
                 @Suppress("DEPRECATION")
                 activity?.onBackPressed()
-            }
+            }123
         }
 
         // Load color from bundle first
